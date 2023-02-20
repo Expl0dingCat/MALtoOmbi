@@ -136,7 +136,7 @@ def getlist():
         if item not in listfull:
             listfull.append(item)
     
-    sendwebhook("The script has been executed.", "Now checking for new items...", "MALtoPlex", "", 0x000000)
+    sendwebhook("The script has been executed.", "Now checking for new items...", "MALtoOmbi", "", 0x000000)
 
     for i in listfull:
         name, type = i.split('|', 1)
